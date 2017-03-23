@@ -13,7 +13,7 @@ background: linear-gradient(60deg,#e0ffdd,#ffe2fe);
 input, select{
     border-radius: 0px;
     -webkit-appearance: none;
-    width:25%;
+    width:70%;
     border: none;
     height:2.5em;
     margin:0em auto 1em;
@@ -24,7 +24,7 @@ input:valid, select:valid{
 }
 
 input[type=submit]{
-    width:25%;
+    width:70%;
     height:2.5em;
     margin:0em auto 1em;
     background-color:#32906e
@@ -34,3 +34,11 @@ submit{
    color: white;
 }
 
+form{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -300px;
+}
