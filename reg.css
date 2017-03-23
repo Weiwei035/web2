@@ -1,0 +1,36 @@
+body{
+text-align:center; 
+margin: auto;
+
+background: -webkit-linear-gradient(60deg,#e0ffdd,#ffe2fe);
+background: -o-linear-gradient(60deg,#e0ffdd,#ffe2fe);
+background: -moz-linear-gradient(60deg,#e0ffdd,#ffe2fe);
+background: linear-gradient(60deg,#e0ffdd,#ffe2fe);
+}
+
+
+
+input, select{
+    border-radius: 0px;
+    -webkit-appearance: none;
+    width:25%;
+    border: none;
+    height:2.5em;
+    margin:0em auto 1em;
+}
+
+input:valid, select:valid{
+    background-color:#9de2d1;
+}
+
+input[type=submit]{
+    width:25%;
+    height:2.5em;
+    margin:0em auto 1em;
+    background-color:#32906e
+}
+
+submit{
+   color: white;
+}
+
